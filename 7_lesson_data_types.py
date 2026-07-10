@@ -24,3 +24,28 @@ g = False # bool
 h = None #NoneType
 i = "" # str -> blank
 j = " " # str -> empty
+
+# Standalone functions
+
+# Method of class
+# Belongs to a class
+
+# Operations
+# -- Magic Methods --
+
+# Functions
+# * Independent block of code
+
+# Methods
+# * Functions belong to objects/classes
+text = "hi"
+number = 10
+
+print(text)
+print(number)
+print(type(text))
+print(type(number))
+print(len(text))
+# print(len(number)) -> object of type 'int' has no len()
+print(text.upper())
+print(number.bit_length())
